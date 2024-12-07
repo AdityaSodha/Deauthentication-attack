@@ -10,17 +10,9 @@ This repository contains a list of commands for performing a WiFi Deauthenticati
 + A compatible WiFi adapter that supports monitor mode
 + Aircrack-ng suite
 ### Usage
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Adityasinh-Sodha/Deauthentication-Attack/
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Deauthentication-Attack/
-   cat DA.txt
-   ```
-3. Follow the instructions in the `DA.txt` file to execute the WiFi Deauthentication attack commands on your Linux terminal.
+
+* Follow the instructions in the `commands.txt` file to execute the WiFi Deauthentication attack commands on your Linux terminal.
 ### Disclaimer
 This list of commands is intended for educational and testing purposes only. Use it responsibly and ensure you have permission to perform deauthentication attacks in your environment.
 ### License
-This project is licensed under the MIT [License]. See the [LICENSE] file for more details.
+This project is licensed under the MIT License. See the LICENSE file for more details.
