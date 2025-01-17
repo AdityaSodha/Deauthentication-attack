@@ -1,18 +1,51 @@
-# Deauthentication-Attack
-This repository contains a list of commands for performing a WiFi Deauthentication attack on Linux terminals. These commands help users manually disrupt the connection between WiFi clients and access points. This resource is intended for educational and testing purposes in cybersecurity and network security environments.
-### Features
-* Commands to perform WiFi Deauthentication attacks
-* Instructions for scanning nearby WiFi networks
-* Steps to execute deauthentication on target networks
-* User-friendly and straightforward command list
-### Requirements
-+ A Linux-based operating system
-+ A compatible WiFi adapter that supports monitor mode
-+ Aircrack-ng suite
-### Usage
+# Deauth-Simulator
 
-* Follow the instructions in the `commands.txt` file to execute the WiFi Deauthentication attack commands on your Linux terminal.
-### Disclaimer
-This list of commands is intended for educational and testing purposes only. Use it responsibly and ensure you have permission to perform deauthentication attacks in your environment.
-### License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+## Description
+This script automates the process of performing a deauthentication attack using `aircrack-ng`. It provides a user-friendly interface, automatically detects wireless interfaces, enables monitor mode, captures handshake data, and performs deauthentication attacks in a controlled manner.
+
+
+## Features
+- Automatically detects the wireless interface.
+- Enables and disables monitor mode as required.
+- Captures handshake data for a specified WiFi network.
+- Performs deauthentication attacks with user confirmation.
+- Safe cleanup to restore network settings after execution.
+- Clean and readable script with highlighted comments for easy understanding.
+
+---
+
+## Prerequisites
+- **Operating System:** Linux (Tested on Kali Linux and Ubuntu).
+- **Dependencies:** `aircrack-ng`, `gnome-terminal`.
+- **Permissions:** Run the script with root privileges (`sudo`).
+
+---
+
+## Installation
+1. Clone this repository or download the script:
+   ```bash
+   git clone https://github.com/Adityasinh-Sodha/deauth-simulator.git
+   cd deauth-simulator
+   ````
+   
+2. Give the permissions and execute:
+    ```bash
+    chmod +x deauth.sh
+    ./deauth
+    ```
+## usage
+- The script will detect your wireless interface and enable monitor mode.
+- The script shows all WIFI networks in your area 
+- Select your WIFI network and Use Ctrl+C to stop airodump-ng
+- proceed to enter the Channel (CH) and BSSID.
+- A new terminal will open to capture handshake data and **DO NOT CLOSE IT**
+- Confirm the warning message to proceed with the deauthentication attack.
+
+## Warning
+**This script is for educational purposes only.**
+- Only use this tool on networks you own or have explicit permission to test.
+- Unauthorized use on public or private networks is illegal and unethical.
+- The creators of this script are not responsible for any misuse or damage caused.
+
+## Author
+Developed by **Adityasinh**.
