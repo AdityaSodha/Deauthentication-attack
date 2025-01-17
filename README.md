@@ -11,6 +11,7 @@ This script automates the process of performing a deauthentication attack using 
 - Performs deauthentication attacks with user confirmation.
 - Safe cleanup to restore network settings after execution.
 - Clean and readable script with highlighted comments for easy understanding.
+- **Check `commands.txt` for manual commands**
 
 ---
 
