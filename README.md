@@ -40,7 +40,10 @@ This script automates the process of performing a deauthentication attack using 
 - proceed to enter the Channel (CH) and BSSID.
 - A new terminal will open to capture handshake data and **DO NOT CLOSE IT**
 - Confirm the warning message to proceed with the deauthentication attack.
+
+---
 ![deauth](https://github.com/user-attachments/assets/7acb32a3-3766-44f9-915e-316f1347d803)
+---
 
 
 ## Warning
