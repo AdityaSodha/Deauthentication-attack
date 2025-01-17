@@ -34,6 +34,9 @@ if [ -z "$interface" ]; then
 fi
 echo -e "${Yellow}Wireless interface detected: $interface${NC}"
 
+# Stop all active network process
+airmon-ng check kill
+
 # Enable monitor mode using ip commands
 echo -e "${Yellow}Enabling monitor mode on $interface...${NC}"
 sudo ip link set "$interface" down
